@@ -1,0 +1,11 @@
+@use "variables" as var;
+@use "base";
+
+h1 {
+  color: var.$primary;
+}
+
+section div {
+  background: white;
+  box: 1px solid gray;
+}

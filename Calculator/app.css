@@ -1,0 +1,133 @@
+#neelam {
+    width: 296px;
+    border-bottom: 2px #6f6f6f solid;
+    border-bottom-color: #85c1e9;
+    background-color: #85c1e9;
+}
+
+body {
+    background-color: #457b9d;
+}
+
+table {
+    margin: auto;
+    background-color: #1d3557;
+    width: 295px;
+    max-width: 295px;
+    height: 325px;
+    text-align: center;
+    border-radius: 4px;
+    padding-right: 10px;
+    border-color: #1d3557;
+}
+
+input {
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 0;
+    color: #495069;
+    background-color: #a8dadc;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+
+input:hover {
+    border: 0 solid #000;
+    color: #495069;
+    background-color: #a8dadc;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px #b0d2cf;
+}
+
+input:active {
+    top: 4px;
+    border: 0 solid #000;
+    color: #495069;
+    background-color: #a8dadc;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: none;
+}
+
+#display {
+    width: 265px;
+    max-width: 270px;
+    font-size: 50px;
+    text-align: right;
+    background-color: #bcbd95;
+    float: left;
+}
+
+#display:hover {
+    width: 270px;
+    font-size: 26px;
+    text-align: right;
+    background-color: #bcbd95;
+    box-shadow: 0 soild rgba(0, 0, 0, 0.2);
+}
+
+#display:active {
+    top: 5px;
+    width: 270px;
+    font-size: 26px;
+    text-align: right;
+    background-color: #bcbd95;
+    box-shadow: 0 soild rgba(0, 0, 0, 0.2);
+}
+
+.operator {
+    background-color: #cee9ea;
+    position: relative;
+}
+
+.operator:hover {
+    background-color: #cee9ea;
+    box-shadow: none;
+}
+
+#clear {
+    float: left;
+    position: relative;
+    display: block;
+    background-color: #85c1e9;
+}
+
+#clear:hover {
+    float: left;
+    display: block;
+    background-color: #85c1f9;
+    margin-bottom: 15px;
+    box-shadow: 0 4px #1d3557;
+}
+
+#clear:active {
+    float: left;
+    top: 4px;
+    display: block;
+    background-color: #85c1f9;
+    margin-bottom: 15px;
+    box-shadow: none;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 109%;
+}

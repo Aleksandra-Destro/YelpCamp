@@ -1,0 +1,29 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light_Dark_Mode</title>
+
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <div class="mainBody">
+        <div class="toggleContainer">
+            <input id="checkbox" type="checkbox" value="off">
+        </div>
+    </div>
+
+    <script>
+        const checkbox = document.querySelector("#checkbox");
+        const mainBody = document.querySelector(".mainBody");
+
+        checkbox.addEventListener("click", () => mainBody.classList.toggle("darkBg"));  
+    </script>
+
+</body>
+
+</html>
